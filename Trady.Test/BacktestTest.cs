@@ -195,7 +195,7 @@ namespace Trady.Test
         }
 
         [TestMethod]
-        public async Task TestIssue70()
+        public void TestIssue70()
         {
             //var importer = new AlphaVantageImporter("WUT9R5SC4IHCNA4S", OutputSize.full);
             //var fb = importer.ImportAsync("fb", startTime: new DateTime(2018, 1, 1), period: PeriodOption.PerMinute).Result;
@@ -228,7 +228,7 @@ namespace Trady.Test
             //Console.WriteLine($"Transaction count: {result.Transactions.Count():#.##}, P/L ratio: {result.TotalCorrectedProfitLossRatio * 100}%, Principal: {result.TotalPrincipal}, Total: {result.TotalCorrectedBalance}");
         }
 
-        
+
     }
 
     public static class Signals
