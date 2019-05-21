@@ -12,6 +12,7 @@
     <PackageTags>Trady;Technical;Analysis;Finance;Stock</PackageTags>
     <PackageReleaseNotes>
     Please refer to https://github.com/lppkarl/Trady/</PackageReleaseNotes>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
